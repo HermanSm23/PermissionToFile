@@ -52,6 +52,8 @@
     <Compile Include="SystemAdminTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PersonTest.cs" />
+    <Compile Include="ModeratorTest.cs" />
+    <Compile Include="HelperAdminTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
