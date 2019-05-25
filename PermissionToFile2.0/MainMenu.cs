@@ -51,7 +51,7 @@ namespace PermissionToFile2._0
                     }
                     else if (admin == false)
                     {
-                        MessageBox.Show("Створювати користувача може тільки систмений адміністратор БІЛЬШЕ НІХТОASGASGASG");
+                        MessageBox.Show("Створювати користувача може тільки систмений адміністратор");
                         break;
                     }
             }

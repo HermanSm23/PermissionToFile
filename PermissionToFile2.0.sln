@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermissionToFile2.0", "Perm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermissionToFileLibraryClasses", "PermissionToFileLibraryClasses\PermissionToFileLibraryClasses.csproj", "{6E5B04FD-B1CD-4FE8-BB8A-9FACC0D05DE3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermissionToFileUnitTest", "PermissionToFileUnitTest\PermissionToFileUnitTest.csproj", "{3DE0BD99-5856-40FC-9158-0CCAE89F3B13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6E5B04FD-B1CD-4FE8-BB8A-9FACC0D05DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E5B04FD-B1CD-4FE8-BB8A-9FACC0D05DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E5B04FD-B1CD-4FE8-BB8A-9FACC0D05DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DE0BD99-5856-40FC-9158-0CCAE89F3B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DE0BD99-5856-40FC-9158-0CCAE89F3B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DE0BD99-5856-40FC-9158-0CCAE89F3B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DE0BD99-5856-40FC-9158-0CCAE89F3B13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
