@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="SystemAdminTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PersonTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
