@@ -10,12 +10,23 @@ namespace PermissionToFileUnitTest
         [TestMethod]
         public void BanUserTest()
         {
-            SystemAdmin systemAdminTest = new SystemAdmin("systemAdminUnitTest", "222", "systemAdmin");
-            User userTest = new User("userUnitTest", "333", "user", false);
+            SystemAdmin systemAdminBanTest = new SystemAdmin("systemAdminUnitTest", "222", "systemAdmin");
+            User userBanTest = new User("userUnitTest", "333", "user", false);
 
-            systemAdminTest.BanUser(userTest);
+            systemAdminBanTest.BanUser(userBanTest);
 
-            Assert.AreEqual(true, userTest.Banned);
+            Assert.AreEqual(true, userBanTest.Banned);
+        }
+
+        [TestMethod]
+        public void UnBanUserTest()
+        {
+            SystemAdmin systemAdminUnBanTest = new SystemAdmin("systemAdminUnBanUnitTest", "222", "systemAdmin");
+            User userUnBanTest = new User("userUnBanUnitTest", "333", "user", true);
+
+            systemAdminUnBanTest.UnBanUser(userUnBanTest);
+
+            Assert.AreEqual(false, userUnBanTest.Banned);
         }
     }
 }
