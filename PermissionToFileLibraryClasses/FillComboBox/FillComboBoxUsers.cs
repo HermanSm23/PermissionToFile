@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,6 +13,7 @@ namespace PermissionToFileLibraryClasses
         {
             // ???
             users.Sort();
+            // ???
             foreach (User user in users)
             {
                 listBox.Items.Add(user.Username);
